@@ -13,3 +13,12 @@ Default ip address is 192.168.1.39, and port is 5000
 
 ### Kramer tools
 For quicker message determination, you can use kramer's [Protocol 2000 Calculator](http://www.kramerelectronics.com/support/download.asp?f=35567) (windows only)   
+
+### Usage
+Just launch the script without arguments and it will randomly switch inputs; provide an input number and it will send the appropriate command
+
+```
+./kramer_switch.py 3  
+Setting all outputs to input input_3
+```
+
